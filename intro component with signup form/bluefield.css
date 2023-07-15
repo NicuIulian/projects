@@ -1,0 +1,10 @@
+.blue__field {
+  background-color: hsl(248, 32%, 49%);
+  /* height: 4rem; */
+  border-radius: 12px;
+  color: #fff;
+  padding: 1.3rem 4rem 1.3rem 4rem;
+  font-family: 'Poppins', sans-serif;
+  /* margin-left: 20px; */
+  cursor: pointer;
+}

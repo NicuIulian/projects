@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <!-- START BACKGROUND -->
+    <div class="container">
+      <div class="left">
+        <div class="background-image__text">
+          <h1>
+            Learn to code by <br />
+            watching others
+          </h1>
+          <p>
+            See how experienced developers solve problems in real-time.<br />
+            Watching sripted tutorials is great, but understanding how <br />
+            developers think is invaluable.
+          </p>
+        </div>
+      </div>
+      <!-- END BACKGROUND -->
+      <div class="right">
+        <!-- START BLUE FIELD -->
+        <div class="blue__field">
+          <b>Try it for free 7 days</b>
+          then $20/mo. thereafter
+        </div>
+        <!-- END BLUE FIELD -->
+
+        <form class="form_input">
+          <div class="input-container">
+            <input type="text" id="fname" name="fname" placeholder="First Name" />
+            <span class="error-icon"><img src="/images/icon-error.svg" alt="Error Icon" /></span>
+          </div>
+          <p id="fnameError" class="error"></p>
+          <div class="input-container">
+          <input type="text" id="lname" name="lname" placeholder="Last Name" />
+          <span class="error-icon"><img src="/images/icon-error.svg" alt="error" /></span>
+          </div>
+          <p id="lnameError" class="error"></p>
+    
+          <div class="input-container">
+            <input type="text" id="email" name="email" placeholder="Email Address" />
+            <span class="error-icon"><img src="/images/icon-error.svg" alt="Error Icon" /></span>
+          </div>
+          <p id="emailError" class="error"></p>
+
+
+          <div class="input-container">
+            <input type="text" id="password" name="password" placeholder="Password" />
+            <span class="error-icon"><img src="/images/icon-error.svg" alt="Error Icon" /></span>
+          </div>
+          <p id="passwordError" class="error"></p>
+    
+          <input class="form_input-submit" type="submit" value="Submit" />
+        
+          <div class="form_input-terms">
+            By clicking the button you're agreeing to our
+            <span>Terms and Services.</span>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

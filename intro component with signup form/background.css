@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url('./images/bg-intro-desktop.png');
+  background-color: hsl(0, 100%, 74%);
+  height: 100vh;
+}
+
+.background-image__text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  text-align: left;
+}
+
+.background-image__text h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.background-image__text p {
+  font-weight: 400;
+  line-height: 25px;
+}
